@@ -1,9 +1,11 @@
 import lighthouse from '@lighthouse-web3/sdk'
+require('dotenv').config();
 
-const apiKey = '37de3406.b85aead2c33a4c78ade044749cd3abec';
+const API_KEY = process.env.LIGHTHOUSE_API;
+
 const uploadResponse = await lighthouse.upload(
   '/home/cosmos/Desktop/patient_data.txt', 
-  apiKey
+  API_KEY
 );
 
 //console.log(uploadResponse);
