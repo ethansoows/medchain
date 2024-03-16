@@ -30,29 +30,28 @@ The [lighthouse.js](https://github.com/ethansoows/medchain/blob/main/lighthouse.
 # 2. Smart Contract (Baselayer)
 # 2.1 Set up
 
-Setting Up Base's Custom Testnet on MetaMask:
+1. Setting Up Base's Custom Testnet on MetaMask:
 Install MetaMask: If you haven't already installed MetaMask, you can download and install it as a browser extension for Chrome, Firefox, Brave, or Edge.
 
-Create or Import an Account: Open MetaMask and either create a new Ethereum account or import an existing one using your seed phrase.
+2. Create or Import an Account: Open MetaMask and either create a new Ethereum account or import an existing one using your seed phrase.
 
-Switch to Test Network: By default, MetaMask connects to the Ethereum Mainnet. To switch to a test network, click on the network dropdown at the top of the MetaMask window.
+3. Switch to Test Network: By default, MetaMask connects to the Ethereum Mainnet. To switch to a test network, click on the network dropdown at the top of the MetaMask window.
 
-Select Custom RPC: At the bottom of the network list, click on "Custom RPC" to add a custom network.
+4. Select Custom RPC: At the bottom of the network list, click on "Custom RPC" to add a custom network.
 
-Fill in Network Details: Fill in the following details for Base's custom test network:
+5. Fill in Network Details: Fill in the following details for Base's custom test network:
 
-Network Name: "Base Testnet" or any name you prefer.
+6. Network Name: "Base Testnet" or any name you prefer.
 New RPC URL: Consult Base's documentation or website for the RPC URL of their testnet.
 Chain ID: Base should provide the Chain ID for their testnet.
 Symbol (optional): Symbol of the test network's currency, if applicable.
 Block Explorer URL (optional): URL of the block explorer for Base's test network.
 Save the Configuration: Click "Save" to add the custom network configuration.
 
-Switch to Base's Test Network: After saving the configuration, select "Base Testnet" or the name you provided from the network dropdown to switch to it.
+7. Switch to Base's Test Network: After saving the configuration, select "Base Testnet" or the name you provided from the network dropdown to switch to it.
 
-## 2.2
+## 2.2 Requesting Test Ether (if necessary)
 
-Requesting Test Ether (if necessary):
 If Base's testnet requires test Ether for transactions, you may need to request it from a testnet faucet. Follow these steps to request test Ether:
 
 Find a Base Testnet Faucet: Search for a testnet faucet specific to Base's test network. You can often find these by searching "Base Testnet ETH faucet" or similar.
