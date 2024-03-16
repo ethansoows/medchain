@@ -7,6 +7,8 @@ The MedChain decentralised application uses [lighthouse*](https://docs.lighthous
 For a more detailed version of what we are trying to achieve, please refer to this [link] **TO DO: insert link**. Refer to this [link] **TO DO: insert link** for front end. 
 
 *Lighthouse is a facilitator of permanent file storage on the Filecoin Network where users only pay once and their files are stored forever."
+<br>
+<br>
 
 
 
