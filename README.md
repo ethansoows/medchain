@@ -21,7 +21,8 @@ Create an API Key
 1. Login into Lighthouse files dapp (https://files.lighthouse.storage/)
 
 2. Go to the API key section and generate the key
-**TO DO:UPLOAD IMAGE**
+**TO DO:UPLOAD IMAGE**<img width="452" alt="image" src="https://github.com/ethansoows/medchain/assets/32422632/ac739836-1ad0-4a91-bada-1371e3b5cf73">
+
 
 3. Create a .env file and in there create a varaible `LIGHTHOUSE_API` = `<API_KEY>`
 
