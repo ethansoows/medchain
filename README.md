@@ -29,6 +29,7 @@ Create an API Key
 4. Enter the patient's name and date of birth in the [patient_contact.txt]() file.  
 
 <br>
+
 ## 1.2 Functionlity
 The [lighthouse.js](https://github.com/ethansoows/medchain/blob/main/lighthouse.js) javascript file saves the `patient_context.txt` onto Filecoin decentralised storage and the hash will be passed to the smart contract to be stored in the block chain. 
 
