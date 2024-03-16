@@ -33,6 +33,8 @@ Create an API Key
 ## 1.2 Functionlity
 The [lighthouse.js](https://github.com/ethansoows/medchain/blob/main/lighthouse.js) javascript file saves the `patient_context.txt` onto Filecoin decentralised storage and the hash will be passed to the smart contract to be stored in the block chain. 
 
+<br>
+<br>
 
 # 2. Smart Contract (Baselayer)
 # 2.1 Set up
