@@ -8,6 +8,9 @@ For a more detailed version of what we are trying to achieve, please refer to th
 
 *Lighthouse is a facilitator of permanent file storage on the Filecoin Network where users only pay once and their files are stored forever."
 
+
+
+
 # 1.Filecoin (Lighthouse)
 ## 1.1 Set up 
 
