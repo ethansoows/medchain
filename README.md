@@ -4,11 +4,9 @@
 # Overview
 The MedChain decentralised application uses [lighthouse*](https://docs.lighthouse.storage/lighthouse-1/quick-start) to store the patient's data on the Filecoin network and generates a hash which is then uploaded on to the [Base](https://www.base.org/) Layer 2 network.
 
-*Lighthouse is a facilitator of permanent file storage on the Filecoin Network where users only pay once and their files are stored forever."
-
 For a more detailed version of what we are trying to achieve, please refer to this [link] **TO DO: insert link**. Refer to this [link] **TO DO: insert link** for front end. 
 
-
+*Lighthouse is a facilitator of permanent file storage on the Filecoin Network where users only pay once and their files are stored forever."
 
 # 1.Filecoin (Lighthouse)
 ## 1.1 Set up 
