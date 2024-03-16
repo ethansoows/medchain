@@ -27,6 +27,7 @@ Create an API Key
 ## 1.2 Functionlity
 The [lighthouse.js](https://github.com/ethansoows/medchain/blob/main/lighthouse.js) javascript file saves the `patient_context.txt` onto Filecoin decentralised storage and the hash will be passed to the smart contract to be stored in the block chain. 
 
+
 # 2. Smart Contract (Baselayer)
 # 2.1 Set up
 
@@ -52,26 +53,21 @@ Save the Configuration: Click "Save" to add the custom network configuration.
 
 ## 2.2 Requesting Test Ether (if necessary)
 
-If Base's testnet requires test Ether for transactions, you may need to request it from a testnet faucet. Follow these steps to request test Ether:
+1. If Base's testnet requires test Ether for transactions, you may need to request it from a testnet faucet. Follow these steps to request test Ether:
 
-Find a Base Testnet Faucet: Search for a testnet faucet specific to Base's test network. You can often find these by searching "Base Testnet ETH faucet" or similar.
+2. Find a Base Testnet Faucet: Search for a testnet faucet specific to Base's test network. You can often find these by searching "Base Testnet ETH faucet" or similar.
 
-Navigate to the Faucet Website: Once you've found a suitable faucet, navigate to its website. These faucets typically have a simple web interface where you can request test Ether.
+3. Navigate to the Faucet Website: Once you've found a suitable faucet, navigate to its website. These faucets typically have a simple web interface where you can request test Ether.
 
-Follow the Faucet Instructions: Provide your Ethereum address (the one from your MetaMask account) and complete any required CAPTCHAs or verification steps.
+4. Follow the Faucet Instructions: Provide your Ethereum address (the one from your MetaMask account) and complete any required CAPTCHAs or verification steps.
 
-Request Test Ether: Submit your request for test Ether. Some faucets may provide a small amount of Ether instantly, while others may take a short time to process your request.
+5. Request Test Ether: Submit your request for test Ether. Some faucets may provide a small amount of Ether instantly, while others may take a short time to process your request.
 
-Check Your MetaMask Balance: Once your request has been processed, check your MetaMask balance to see if the test Ether has been deposited into your account on Base's test network. You should see the test Ether balance increase accordingly.
+6. Check Your MetaMask Balance: Once your request has been processed, check your MetaMask balance to see if the test Ether has been deposited into your account on Base's test network. You should see the test Ether balance increase accordingly.
 
 
 ## 2.3 Contract Details
-The contract details are in the [main.sol](https://github.com/ethansoows/medchain/blob/main/contracts/main.sol) file. Run this code on the remix editor 
-
-
-
-
-### Contract Details
+The contract details are in the [main.sol](https://github.com/ethansoows/medchain/blob/main/contracts/main.sol) file. 
 
 - **Compiler Version:** Solidity ^0.8.0
 - **Contract Name:** EHR
@@ -136,9 +132,11 @@ Retrieves all medical record hashes for a given patient, including their profile
 - **Returns:**
     - `allHashes` (string[]): An array of all medical record hashes for the patient, including the profile hash.
 
-## 2.2 
+## 2.4 Deployment
+The team ran this code using the [remix editor](https://remix.ethereum.org/). Do note that we need to set the environemnt to **Injected Provider - Metammask**. You can also choose to run this contract on other testnet that utilizes Base. 
+<img width="286" alt="image" src="https://github.com/ethansoows/medchain/assets/32422632/eed7ab81-cea8-4e30-b0f1-ac05d99e6f48">
 
-## 2.3 
+
 
 ## Contribution
 
