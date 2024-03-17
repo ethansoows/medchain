@@ -141,6 +141,8 @@ Retrieves all medical record hashes for a given patient, including their profile
 
 ## 2.4 Deployment
 The team ran this code using the [remix editor](https://remix.ethereum.org/). Do note that we need to set the environemnt to **Injected Provider - Metammask**. You can also choose to run this contract on other testnet that utilizes Base. 
+
+
 <img width="286" alt="image" src="https://github.com/ethansoows/medchain/assets/32422632/eed7ab81-cea8-4e30-b0f1-ac05d99e6f48">
 
 
