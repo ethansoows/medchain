@@ -1,4 +1,4 @@
-# MedChain - Smart Contract (Base Layer) and Distributed file storage (Filecoin-Lighhouse) 
+# MedChain - Smart Contract (Base Layer) and Distributed file storage (Filecoin-Lighthouse) 
 
 
 # Overview
